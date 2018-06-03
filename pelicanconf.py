@@ -17,6 +17,11 @@ PLUGINS = ['ipynb.markup']
 
 OUTPUT_PATH = 'docs/'
 
+GITHUB_URL = 'https://github.com/CihanSoylu'
+LINKEDIN_URL = 'https://www.linkedin.com/in/cihan-soylu-749b9088/'
+
+THEME = 'themes/pelican-clean-blog'
+
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
@@ -33,8 +38,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/CihanSoylu'),
+          ('Linkedin', 'https://www.linkedin.com/in/cihan-soylu-749b9088/'),)
 
 DEFAULT_PAGINATION = 10
 
